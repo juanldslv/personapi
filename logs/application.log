@@ -1,0 +1,1071 @@
+2025-02-17 01:32:05 - c.p.personapi.PersonapiApplication - Starting PersonapiApplication using Java 23.0.2 with PID 7700 (C:\Users\Juan Diego\Documents\Java\personapi\build\classes\java\main started by Juan Diego in C:\Users\Juan Diego\Documents\Java\personapi)
+2025-02-17 01:32:05 - c.p.personapi.PersonapiApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-17 01:32:06 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-17 01:32:06 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 126 ms. Found 3 JPA repository interfaces.
+2025-02-17 01:32:07 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-02-17 01:32:07 - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-17 01:32:07 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-17 01:32:07 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-17 01:32:07 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-17 01:32:07 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2077 ms
+2025-02-17 01:32:07 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-17 01:32:07 - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-17 01:32:07 - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-02-17 01:32:08 - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-17 01:32:08 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-02-17 01:32:08 - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ed8b44
+2025-02-17 01:32:08 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-02-17 01:32:08 - org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-17 01:32:08 - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-17 01:32:10 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-17 01:32:10 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-17 01:32:11 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-17 01:32:11 - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-17 01:32:11 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-02-17 01:32:11 - c.p.personapi.PersonapiApplication - Started PersonapiApplication in 7.078 seconds (process running for 8.175)
+2025-02-17 01:51:10 - o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.personapi.personapi.PersonapiApplicationTests]: PersonapiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-02-17 01:51:11 - o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.personapi.personapi.PersonapiApplication for test class com.personapi.personapi.PersonapiApplicationTests
+2025-02-17 01:51:12 - c.p.p.PersonapiApplicationTests - Starting PersonapiApplicationTests using Java 23.0.2 with PID 13296 (started by Juan Diego in C:\Users\Juan Diego\Documents\Java\personapi)
+2025-02-17 01:51:12 - c.p.p.PersonapiApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-02-17 01:51:14 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-17 01:51:14 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 105 ms. Found 3 JPA repository interfaces.
+2025-02-17 01:51:15 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-17 01:51:15 - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-17 01:51:15 - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-02-17 01:51:16 - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-17 01:51:16 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-02-17 01:51:17 - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6106dfb6
+2025-02-17 01:51:17 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-02-17 01:51:17 - org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-17 01:51:17 - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-17 01:51:19 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-17 01:51:19 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-17 01:51:20 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-17 01:51:21 - c.p.p.PersonapiApplicationTests - Started PersonapiApplicationTests in 10.253 seconds (process running for 13.464)
+2025-02-17 01:51:23 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-17 01:51:23 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-02-17 01:51:23 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-02-17 02:01:49 - c.p.personapi.PersonapiApplication - Starting PersonapiApplication using Java 23.0.2 with PID 5728 (C:\Users\Juan Diego\Documents\Java\personapi\build\classes\java\main started by Juan Diego in C:\Users\Juan Diego\Documents\Java\personapi)
+2025-02-17 02:01:49 - c.p.personapi.PersonapiApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-17 02:01:51 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-17 02:01:52 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 331 ms. Found 3 JPA repository interfaces.
+2025-02-17 02:01:55 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-02-17 02:01:55 - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-17 02:01:55 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-17 02:01:55 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-17 02:01:56 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-17 02:01:56 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6808 ms
+2025-02-17 02:01:57 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-17 02:01:57 - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-17 02:01:58 - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-02-17 02:01:59 - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-17 02:01:59 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-02-17 02:02:00 - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@39374689
+2025-02-17 02:02:00 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-02-17 02:02:00 - org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-17 02:02:01 - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-17 02:02:04 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-17 02:02:04 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-17 02:02:06 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-17 02:02:08 - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-17 02:02:09 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-02-17 02:02:09 - c.p.personapi.PersonapiApplication - Started PersonapiApplication in 21.278 seconds (process running for 23.696)
+2025-02-17 02:02:31 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-17 02:02:31 - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-02-17 02:02:31 - o.s.web.servlet.DispatcherServlet - Completed initialization in 49 ms
+2025-02-17 02:06:46 - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-17 02:06:46 - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-02-17 02:06:46 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-17 02:06:46 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-02-17 02:06:46 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-02-17 02:07:45 - o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.personapi.personapi.PersonapiApplicationTests]: PersonapiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-02-17 02:07:45 - o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.personapi.personapi.PersonapiApplication for test class com.personapi.personapi.PersonapiApplicationTests
+2025-02-17 02:07:46 - c.p.p.PersonapiApplicationTests - Starting PersonapiApplicationTests using Java 23.0.2 with PID 7804 (started by Juan Diego in C:\Users\Juan Diego\Documents\Java\personapi)
+2025-02-17 02:07:46 - c.p.p.PersonapiApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-02-17 02:07:48 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-17 02:07:48 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 118 ms. Found 3 JPA repository interfaces.
+2025-02-17 02:07:49 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-17 02:07:49 - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-17 02:07:50 - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-02-17 02:07:50 - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-17 02:07:50 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-02-17 02:07:51 - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@248b2b61
+2025-02-17 02:07:51 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-02-17 02:07:51 - org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-17 02:07:51 - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-17 02:07:53 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-17 02:07:53 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-17 02:07:55 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-17 02:07:55 - c.p.p.PersonapiApplicationTests - Started PersonapiApplicationTests in 9.755 seconds (process running for 12.941)
+2025-02-17 02:07:57 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-17 02:07:57 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-02-17 02:07:57 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-02-17 02:14:51 - o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.personapi.personapi.PersonapiApplicationTests]: PersonapiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-02-17 02:14:51 - o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.personapi.personapi.PersonapiApplication for test class com.personapi.personapi.PersonapiApplicationTests
+2025-02-17 02:14:52 - c.p.p.PersonapiApplicationTests - Starting PersonapiApplicationTests using Java 23.0.2 with PID 15152 (started by Juan Diego in C:\Users\Juan Diego\Documents\Java\personapi)
+2025-02-17 02:14:52 - c.p.p.PersonapiApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-02-17 02:14:54 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-17 02:14:54 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 132 ms. Found 3 JPA repository interfaces.
+2025-02-17 02:14:55 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-17 02:14:55 - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-17 02:14:55 - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-02-17 02:14:56 - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-17 02:14:56 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-02-17 02:14:57 - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c206b14
+2025-02-17 02:14:57 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-02-17 02:14:57 - org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-17 02:14:57 - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-17 02:14:59 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-17 02:14:59 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-17 02:15:00 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-17 02:15:01 - c.p.p.PersonapiApplicationTests - Started PersonapiApplicationTests in 9.425 seconds (process running for 12.692)
+2025-02-17 02:15:01 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-17 02:15:01 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-02-17 02:15:01 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-02-17 02:19:42 - o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.personapi.personapi.PersonapiApplicationTests]: PersonapiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-02-17 02:19:43 - o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.personapi.personapi.PersonapiApplication for test class com.personapi.personapi.PersonapiApplicationTests
+2025-02-17 02:19:45 - c.p.p.PersonapiApplicationTests - Starting PersonapiApplicationTests using Java 23.0.2 with PID 8300 (started by Juan Diego in C:\Users\Juan Diego\Documents\Java\personapi)
+2025-02-17 02:19:45 - c.p.p.PersonapiApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-02-17 02:19:49 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-17 02:19:49 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 300 ms. Found 3 JPA repository interfaces.
+2025-02-17 02:19:53 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-17 02:19:54 - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-17 02:19:54 - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-02-17 02:19:56 - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-17 02:19:56 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-02-17 02:19:57 - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71316cd7
+2025-02-17 02:19:57 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-02-17 02:19:58 - org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-17 02:19:58 - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-17 02:20:02 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-17 02:20:03 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-17 02:20:05 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-17 02:20:07 - c.p.p.PersonapiApplicationTests - Started PersonapiApplicationTests in 23.092 seconds (process running for 35.349)
+2025-02-17 02:20:08 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-17 02:20:08 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-02-17 02:20:08 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-02-17 02:21:50 - o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.personapi.personapi.PersonapiApplicationTests]: PersonapiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-02-17 02:21:50 - o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.personapi.personapi.PersonapiApplication for test class com.personapi.personapi.PersonapiApplicationTests
+2025-02-17 02:21:51 - c.p.p.PersonapiApplicationTests - Starting PersonapiApplicationTests using Java 23.0.2 with PID 11496 (started by Juan Diego in C:\Users\Juan Diego\Documents\Java\personapi)
+2025-02-17 02:21:51 - c.p.p.PersonapiApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-02-17 02:21:53 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-17 02:21:53 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 101 ms. Found 3 JPA repository interfaces.
+2025-02-17 02:21:54 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-17 02:21:54 - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-17 02:21:54 - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-02-17 02:21:56 - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-17 02:21:56 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-02-17 02:21:56 - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4b61e97
+2025-02-17 02:21:56 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-02-17 02:21:56 - org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-17 02:21:56 - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-17 02:22:01 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-17 02:22:01 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-17 02:22:02 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-17 02:22:03 - c.p.p.PersonapiApplicationTests - Started PersonapiApplicationTests in 12.429 seconds (process running for 15.89)
+2025-02-17 02:22:03 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-17 02:22:03 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-02-17 02:22:03 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-02-17 02:25:33 - c.p.personapi.PersonapiApplication - Starting PersonapiApplication using Java 23.0.2 with PID 5544 (C:\Users\Juan Diego\Documents\Java\personapi\build\classes\java\main started by Juan Diego in C:\Users\Juan Diego\Documents\Java\personapi)
+2025-02-17 02:25:33 - c.p.personapi.PersonapiApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-17 02:25:34 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-17 02:25:34 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 114 ms. Found 3 JPA repository interfaces.
+2025-02-17 02:25:34 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-02-17 02:25:34 - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-17 02:25:34 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-17 02:25:34 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-17 02:25:35 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-17 02:25:35 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1884 ms
+2025-02-17 02:25:35 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-17 02:25:35 - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-17 02:25:35 - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-02-17 02:25:36 - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-17 02:25:36 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-02-17 02:25:36 - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@134d7ffa
+2025-02-17 02:25:36 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-02-17 02:25:36 - org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-17 02:25:36 - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-17 02:25:37 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-17 02:25:37 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-17 02:25:38 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-17 02:25:38 - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-17 02:25:38 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-02-17 02:25:38 - c.p.personapi.PersonapiApplication - Started PersonapiApplication in 6.381 seconds (process running for 7.255)
+2025-02-17 02:25:52 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-17 02:25:52 - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-02-17 02:25:52 - o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-02-17 02:25:52 - c.p.p.Controller.PersonController - Obteniendo todas las personas
+2025-02-17 02:25:58 - c.p.p.Controller.PersonController - Obteniendo todas las personas
+2025-02-17 02:25:59 - c.p.p.Controller.PersonController - Obteniendo todas las personas
+2025-02-17 02:36:55 - o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.personapi.personapi.PersonapiApplicationTests]: PersonapiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-02-17 02:36:55 - o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.personapi.personapi.PersonapiApplication for test class com.personapi.personapi.PersonapiApplicationTests
+2025-02-17 02:36:56 - c.p.p.PersonapiApplicationTests - Starting PersonapiApplicationTests using Java 23.0.2 with PID 4076 (started by Juan Diego in C:\Users\Juan Diego\Documents\Java\personapi)
+2025-02-17 02:36:56 - c.p.p.PersonapiApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-02-17 02:36:58 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-17 02:36:58 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 207 ms. Found 3 JPA repository interfaces.
+2025-02-17 02:36:59 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-17 02:36:59 - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-17 02:36:59 - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-02-17 02:37:00 - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-17 02:37:00 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-02-17 02:37:00 - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71316cd7
+2025-02-17 02:37:00 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-02-17 02:37:01 - org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-17 02:37:01 - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-17 02:37:02 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-17 02:37:03 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-17 02:37:04 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-17 02:37:05 - c.p.p.PersonapiApplicationTests - Started PersonapiApplicationTests in 9.436 seconds (process running for 12.725)
+2025-02-17 02:37:06 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-17 02:37:06 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-02-17 02:37:06 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-02-17 02:37:35 - c.p.personapi.PersonapiApplication - Starting PersonapiApplication using Java 23.0.2 with PID 14136 (C:\Users\Juan Diego\Documents\Java\personapi\build\classes\java\main started by Juan Diego in C:\Users\Juan Diego\Documents\Java\personapi)
+2025-02-17 02:37:35 - c.p.personapi.PersonapiApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-17 02:37:36 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-17 02:37:36 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 105 ms. Found 3 JPA repository interfaces.
+2025-02-17 02:37:37 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-02-17 02:37:37 - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-17 02:37:37 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-17 02:37:37 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-17 02:37:37 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-17 02:37:37 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1938 ms
+2025-02-17 02:37:37 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-17 02:37:37 - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-17 02:37:37 - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-02-17 02:37:38 - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-17 02:37:38 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-02-17 02:37:38 - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@134abd78
+2025-02-17 02:37:38 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-02-17 02:37:38 - org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-17 02:37:38 - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-17 02:37:39 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-17 02:37:40 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-17 02:37:40 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-17 02:37:41 - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-17 02:37:41 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-02-17 02:37:41 - c.p.personapi.PersonapiApplication - Started PersonapiApplication in 6.549 seconds (process running for 7.524)
+2025-02-17 02:47:01 - o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.personapi.personapi.PersonControllerTest]: PersonControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-02-17 02:47:02 - o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.personapi.personapi.PersonapiApplication for test class com.personapi.personapi.PersonControllerTest
+2025-02-17 02:47:03 - c.p.personapi.PersonControllerTest - Starting PersonControllerTest using Java 23.0.2 with PID 5172 (started by Juan Diego in C:\Users\Juan Diego\Documents\Java\personapi)
+2025-02-17 02:47:03 - c.p.personapi.PersonControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-02-17 02:47:06 - o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-02-17 02:47:06 - o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-02-17 02:47:06 - o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2025-02-17 02:47:06 - c.p.personapi.PersonControllerTest - Started PersonControllerTest in 4.688 seconds (process running for 7.686)
+2025-02-17 02:47:07 - c.p.p.Controller.PersonController - Obteniendo todas las personas
+2025-02-17 02:47:07 - c.p.p.Controller.PersonController - Creando persona: Person(id=null, firstName=Ana, lastName=Lopez, email=null, phoneNumber=null, age=null, address=null)
+2025-02-17 02:47:07 - o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.personapi.personapi.PersonapiApplicationTests]: PersonapiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-02-17 02:47:07 - o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.personapi.personapi.PersonapiApplication for test class com.personapi.personapi.PersonapiApplicationTests
+2025-02-17 02:47:08 - c.p.p.PersonapiApplicationTests - Starting PersonapiApplicationTests using Java 23.0.2 with PID 5172 (started by Juan Diego in C:\Users\Juan Diego\Documents\Java\personapi)
+2025-02-17 02:47:08 - c.p.p.PersonapiApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-02-17 02:47:08 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-17 02:47:08 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 131 ms. Found 3 JPA repository interfaces.
+2025-02-17 02:47:09 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-17 02:47:10 - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-17 02:47:10 - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-02-17 02:47:10 - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-17 02:47:10 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-02-17 02:47:10 - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2d2fe68a
+2025-02-17 02:47:10 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-02-17 02:47:10 - org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-17 02:47:11 - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-17 02:47:12 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-17 02:47:12 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-17 02:47:13 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-17 02:47:14 - c.p.p.PersonapiApplicationTests - Started PersonapiApplicationTests in 6.339 seconds (process running for 15.032)
+2025-02-17 02:47:14 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-17 02:47:14 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-02-17 02:47:14 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-02-17 02:52:06 - o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.personapi.personapi.PersonControllerTest]: PersonControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-02-17 02:52:06 - o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.personapi.personapi.PersonapiApplication for test class com.personapi.personapi.PersonControllerTest
+2025-02-17 02:52:07 - c.p.personapi.PersonControllerTest - Starting PersonControllerTest using Java 23.0.2 with PID 16120 (started by Juan Diego in C:\Users\Juan Diego\Documents\Java\personapi)
+2025-02-17 02:52:07 - c.p.personapi.PersonControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-02-17 02:52:11 - o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-02-17 02:52:11 - o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-02-17 02:52:11 - o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2025-02-17 02:52:11 - c.p.personapi.PersonControllerTest - Started PersonControllerTest in 4.848 seconds (process running for 8.57)
+2025-02-17 02:52:12 - c.p.p.Controller.PersonController - Obteniendo todas las personas
+2025-02-17 02:52:12 - c.p.p.Controller.PersonController - Creando persona: Person(id=null, firstName=Ana, lastName=Lopez, email=null, phoneNumber=null, age=null, address=null)
+2025-02-17 02:52:12 - o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.personapi.personapi.PersonapiApplicationTests]: PersonapiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-02-17 02:52:12 - o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.personapi.personapi.PersonapiApplication for test class com.personapi.personapi.PersonapiApplicationTests
+2025-02-17 02:52:13 - c.p.p.PersonapiApplicationTests - Starting PersonapiApplicationTests using Java 23.0.2 with PID 16120 (started by Juan Diego in C:\Users\Juan Diego\Documents\Java\personapi)
+2025-02-17 02:52:13 - c.p.p.PersonapiApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-02-17 02:52:13 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-17 02:52:13 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 100 ms. Found 3 JPA repository interfaces.
+2025-02-17 02:52:14 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-17 02:52:15 - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-17 02:52:15 - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-02-17 02:52:15 - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-17 02:52:15 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-02-17 02:52:15 - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3751baf6
+2025-02-17 02:52:15 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-02-17 02:52:16 - org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-17 02:52:16 - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-17 02:52:17 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-17 02:52:18 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-17 02:52:19 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-17 02:52:19 - c.p.p.PersonapiApplicationTests - Started PersonapiApplicationTests in 6.597 seconds (process running for 16.252)
+2025-02-17 02:52:19 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-17 02:52:19 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-02-17 02:52:19 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-02-17 02:53:19 - o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.personapi.personapi.PersonControllerTest]: PersonControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-02-17 02:53:19 - o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.personapi.personapi.PersonapiApplication for test class com.personapi.personapi.PersonControllerTest
+2025-02-17 02:53:20 - c.p.personapi.PersonControllerTest - Starting PersonControllerTest using Java 23.0.2 with PID 14084 (started by Juan Diego in C:\Users\Juan Diego\Documents\Java\personapi)
+2025-02-17 02:53:20 - c.p.personapi.PersonControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-02-17 02:53:22 - o.s.w.c.s.GenericWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'personController': Unsatisfied dependency expressed through field 'personService': No qualifying bean of type 'com.personapi.personapi.Service.PersonService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2025-02-17 02:53:22 - o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-17 02:53:22 - o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field personService in com.personapi.personapi.Controller.PersonController required a bean of type 'com.personapi.personapi.Service.PersonService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.personapi.personapi.Service.PersonService' in your configuration.
+
+2025-02-17 02:53:22 - o.s.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener] to prepare test instance [com.personapi.personapi.PersonControllerTest@3453acd2]
+java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@6ccac6f4 testClass = com.personapi.personapi.PersonControllerTest, locations = [], classes = [com.personapi.personapi.PersonapiApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [], propertySourceProperties = ["org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true"], contextCustomizers = [org.springframework.boot.test.autoconfigure.OnFailureConditionReportContextCustomizerFactory$OnFailureConditionReportContextCustomizer@344344fa, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@73393584, org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@5c0df3b5, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@de4e8563, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@1cfd1875, [ImportsContextCustomizer@438c9aa7 key = [org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration, org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration, org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration, org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration, org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration, org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration, org.springframework.boot.test.autoconfigure.web.reactive.WebTestClientAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration, org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration, org.springframework.boot.autoconfigure.jsonb.JsonbAutoConfiguration, org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAutoConfiguration, org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@e041f0c, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3f3c966c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.reactor.netty.DisableReactorResourceFactoryGlobalResourcesContextCustomizerFactory$DisableReactorResourceFactoryGlobalResourcesContextCustomizerCustomizer@85ec632, org.springframework.test.context.support.DynamicPropertiesContextCustomizer@0, org.springframework.boot.test.context.SpringBootTestAnnotation@39c11746], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:180)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:142)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:98)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:160)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:378)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:383)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$12(ClassBasedTestDescriptor.java:378)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1709)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:377)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$7(ClassBasedTestDescriptor.java:290)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:289)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:279)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$6(ClassBasedTestDescriptor.java:278)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$1(TestMethodTestDescriptor.java:105)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:104)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:128)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:128)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:124)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:94)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:63)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
+	at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:200)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:121)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'personController': Unsatisfied dependency expressed through field 'personService': No qualifying bean of type 'com.personapi.personapi.Service.PersonService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:788)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1445)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:307)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1122)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1093)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1030)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46)
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1461)
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:553)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152)
+	... 87 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.personapi.personapi.Service.PersonService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:2144)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1594)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1519)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
+	... 114 common frames omitted
+2025-02-17 02:53:22 - o.s.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener] to prepare test instance [com.personapi.personapi.PersonControllerTest@54e43bfe]
+java.lang.IllegalStateException: ApplicationContext failure threshold (1) exceeded: skipping repeated attempt to load context for [WebMergedContextConfiguration@6ccac6f4 testClass = com.personapi.personapi.PersonControllerTest, locations = [], classes = [com.personapi.personapi.PersonapiApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [], propertySourceProperties = ["org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true"], contextCustomizers = [org.springframework.boot.test.autoconfigure.OnFailureConditionReportContextCustomizerFactory$OnFailureConditionReportContextCustomizer@344344fa, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@73393584, org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@5c0df3b5, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@de4e8563, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@1cfd1875, [ImportsContextCustomizer@438c9aa7 key = [org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration, org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration, org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration, org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration, org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration, org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration, org.springframework.boot.test.autoconfigure.web.reactive.WebTestClientAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration, org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration, org.springframework.boot.autoconfigure.jsonb.JsonbAutoConfiguration, org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAutoConfiguration, org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@e041f0c, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3f3c966c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.reactor.netty.DisableReactorResourceFactoryGlobalResourcesContextCustomizerFactory$DisableReactorResourceFactoryGlobalResourcesContextCustomizerCustomizer@85ec632, org.springframework.test.context.support.DynamicPropertiesContextCustomizer@0, org.springframework.boot.test.context.SpringBootTestAnnotation@39c11746], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:145)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:142)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:98)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:160)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:378)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:383)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$12(ClassBasedTestDescriptor.java:378)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1709)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:377)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$7(ClassBasedTestDescriptor.java:290)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:289)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:279)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$6(ClassBasedTestDescriptor.java:278)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$1(TestMethodTestDescriptor.java:105)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:104)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:128)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:128)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:124)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:94)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:63)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
+	at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:200)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:121)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+2025-02-17 02:53:24 - o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.personapi.personapi.PersonapiApplicationTests]: PersonapiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-02-17 02:53:24 - o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.personapi.personapi.PersonapiApplication for test class com.personapi.personapi.PersonapiApplicationTests
+2025-02-17 02:53:24 - c.p.p.PersonapiApplicationTests - Starting PersonapiApplicationTests using Java 23.0.2 with PID 14084 (started by Juan Diego in C:\Users\Juan Diego\Documents\Java\personapi)
+2025-02-17 02:53:24 - c.p.p.PersonapiApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-02-17 02:53:25 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-17 02:53:25 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 105 ms. Found 3 JPA repository interfaces.
+2025-02-17 02:53:26 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-17 02:53:26 - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-17 02:53:26 - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-02-17 02:53:27 - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-17 02:53:27 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-02-17 02:53:27 - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@375ff309
+2025-02-17 02:53:27 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-02-17 02:53:27 - org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-17 02:53:27 - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-17 02:53:29 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-17 02:53:29 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-17 02:53:30 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-17 02:53:31 - c.p.p.PersonapiApplicationTests - Started PersonapiApplicationTests in 7.343 seconds (process running for 14.973)
+2025-02-17 02:53:31 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-17 02:53:31 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-02-17 02:53:32 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-02-17 02:54:52 - o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.personapi.personapi.PersonControllerTest]: PersonControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-02-17 02:54:52 - o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.personapi.personapi.PersonapiApplication for test class com.personapi.personapi.PersonControllerTest
+2025-02-17 02:54:53 - c.p.personapi.PersonControllerTest - Starting PersonControllerTest using Java 23.0.2 with PID 9256 (started by Juan Diego in C:\Users\Juan Diego\Documents\Java\personapi)
+2025-02-17 02:54:53 - c.p.personapi.PersonControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-02-17 02:54:57 - o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-02-17 02:54:57 - o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-02-17 02:54:57 - o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2025-02-17 02:54:57 - c.p.personapi.PersonControllerTest - Started PersonControllerTest in 4.687 seconds (process running for 8.008)
+2025-02-17 02:54:57 - c.p.p.Controller.PersonController - Obteniendo todas las personas
+2025-02-17 02:54:58 - c.p.p.Controller.PersonController - Creando persona: Person(id=null, firstName=Ana, lastName=Lopez, email=null, phoneNumber=null, age=null, address=null)
+2025-02-17 02:54:58 - o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.personapi.personapi.PersonapiApplicationTests]: PersonapiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-02-17 02:54:58 - o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.personapi.personapi.PersonapiApplication for test class com.personapi.personapi.PersonapiApplicationTests
+2025-02-17 02:54:58 - c.p.p.PersonapiApplicationTests - Starting PersonapiApplicationTests using Java 23.0.2 with PID 9256 (started by Juan Diego in C:\Users\Juan Diego\Documents\Java\personapi)
+2025-02-17 02:54:58 - c.p.p.PersonapiApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-02-17 02:54:58 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-17 02:54:59 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 96 ms. Found 3 JPA repository interfaces.
+2025-02-17 02:54:59 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-17 02:54:59 - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-17 02:55:00 - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-02-17 02:55:00 - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-17 02:55:00 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-02-17 02:55:00 - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@16269ff4
+2025-02-17 02:55:00 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-02-17 02:55:00 - org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-17 02:55:00 - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-17 02:55:02 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-17 02:55:02 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-17 02:55:03 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-17 02:55:03 - c.p.p.PersonapiApplicationTests - Started PersonapiApplicationTests in 5.155 seconds (process running for 14.22)
+2025-02-17 02:55:03 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-17 02:55:03 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-02-17 02:55:03 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-02-17 03:01:17 - o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.personapi.personapi.PersonControllerTest]: PersonControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-02-17 03:01:18 - o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.personapi.personapi.PersonapiApplication for test class com.personapi.personapi.PersonControllerTest
+2025-02-17 03:01:18 - c.p.personapi.PersonControllerTest - Starting PersonControllerTest using Java 23.0.2 with PID 15404 (started by Juan Diego in C:\Users\Juan Diego\Documents\Java\personapi)
+2025-02-17 03:01:18 - c.p.personapi.PersonControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-02-17 03:01:23 - o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: e4b23d4d-d81d-4b5b-825c-d25994d183b1
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-02-17 03:01:23 - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-02-17 03:01:23 - o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-02-17 03:01:23 - o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-02-17 03:01:23 - o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2025-02-17 03:01:23 - c.p.personapi.PersonControllerTest - Started PersonControllerTest in 5.614 seconds (process running for 8.889)
+2025-02-17 03:01:24 - o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.personapi.personapi.PersonapiApplicationTests]: PersonapiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-02-17 03:01:24 - o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.personapi.personapi.PersonapiApplication for test class com.personapi.personapi.PersonapiApplicationTests
+2025-02-17 03:01:24 - c.p.p.PersonapiApplicationTests - Starting PersonapiApplicationTests using Java 23.0.2 with PID 15404 (started by Juan Diego in C:\Users\Juan Diego\Documents\Java\personapi)
+2025-02-17 03:01:24 - c.p.p.PersonapiApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-02-17 03:01:25 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-17 03:01:26 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 114 ms. Found 3 JPA repository interfaces.
+2025-02-17 03:01:26 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-17 03:01:27 - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-17 03:01:27 - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-02-17 03:01:27 - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-17 03:01:27 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-02-17 03:01:27 - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@434a2a10
+2025-02-17 03:01:27 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-02-17 03:01:27 - org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-17 03:01:27 - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-17 03:01:29 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-17 03:01:29 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-17 03:01:30 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-17 03:01:30 - o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 381605c1-68d1-448f-a8c4-65e07b4e68a3
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-02-17 03:01:30 - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-02-17 03:01:31 - c.p.p.PersonapiApplicationTests - Started PersonapiApplicationTests in 6.161 seconds (process running for 16.038)
+2025-02-17 03:01:31 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-17 03:01:31 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-02-17 03:01:31 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-02-17 03:28:39 - c.p.personapi.PersonapiApplication - Starting PersonapiApplication using Java 23.0.2 with PID 11168 (C:\Users\Juan Diego\Documents\Java\personapi\build\classes\java\main started by Juan Diego in C:\Users\Juan Diego\Documents\Java\personapi)
+2025-02-17 03:28:39 - c.p.personapi.PersonapiApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-17 03:28:40 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-17 03:28:40 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 114 ms. Found 4 JPA repository interfaces.
+2025-02-17 03:28:41 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-02-17 03:28:41 - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-17 03:28:41 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-17 03:28:41 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-17 03:28:42 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-17 03:28:42 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2651 ms
+2025-02-17 03:28:42 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-17 03:28:42 - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-17 03:28:42 - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-02-17 03:28:43 - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-17 03:28:43 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-02-17 03:28:43 - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@271e851e
+2025-02-17 03:28:43 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-02-17 03:28:43 - org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-17 03:28:43 - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-17 03:28:45 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-17 03:28:47 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-17 03:28:47 - o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataInitializer': Unsatisfied dependency expressed through field 'userDetailsService': Error creating bean with name 'userDetailsServiceImpl': Unsatisfied dependency expressed through field 'passwordEncoder': Error creating bean with name 'securityConfig': Unsatisfied dependency expressed through field 'userDetailsService': Error creating bean with name 'userDetailsServiceImpl': Requested bean is currently in creation: Is there an unresolvable circular reference or an asynchronous initialization dependency?
+2025-02-17 03:28:47 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-17 03:28:47 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-02-17 03:28:47 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-02-17 03:28:47 - o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-02-17 03:28:47 - o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-17 03:28:47 - o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   dataInitializer (field private com.personapi.personapi.Service.Impl.UserDetailsServiceImpl com.personapi.personapi.Config.DataInitializer.userDetailsService)
+┌─────┐
+|  userDetailsServiceImpl (field private org.springframework.security.crypto.password.PasswordEncoder com.personapi.personapi.Service.Impl.UserDetailsServiceImpl.passwordEncoder)
+↑     ↓
+|  securityConfig (field private com.personapi.personapi.Service.Impl.UserDetailsServiceImpl com.personapi.personapi.Security.SecurityConfig.userDetailsService)
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2025-02-17 03:30:53 - c.p.personapi.PersonapiApplication - Starting PersonapiApplication using Java 23.0.2 with PID 5696 (C:\Users\Juan Diego\Documents\Java\personapi\build\classes\java\main started by Juan Diego in C:\Users\Juan Diego\Documents\Java\personapi)
+2025-02-17 03:30:53 - c.p.personapi.PersonapiApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-17 03:30:54 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-17 03:30:54 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 95 ms. Found 4 JPA repository interfaces.
+2025-02-17 03:30:55 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-02-17 03:30:55 - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-17 03:30:55 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-17 03:30:55 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-17 03:30:55 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-17 03:30:55 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2172 ms
+2025-02-17 03:30:55 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-17 03:30:55 - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-17 03:30:55 - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-02-17 03:30:55 - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-17 03:30:56 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-02-17 03:30:56 - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7d1cb59f
+2025-02-17 03:30:56 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-02-17 03:30:56 - org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-17 03:30:56 - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-17 03:30:57 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-17 03:30:57 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-17 03:30:58 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-17 03:30:58 - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2025-02-17 03:30:59 - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-17 03:30:59 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-02-17 03:30:59 - c.p.personapi.PersonapiApplication - Started PersonapiApplication in 7.222 seconds (process running for 8.141)
+2025-02-17 03:30:59 - o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-17 03:30:59 - o.s.boot.SpringApplication - Application run failed
+org.springframework.security.core.userdetails.UsernameNotFoundException: Usuario no encontrado: admin
+	at com.personapi.personapi.Service.Impl.UserDetailsServiceImpl.lambda$loadUserByUsername$0(UserDetailsServiceImpl.java:27)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at com.personapi.personapi.Service.Impl.UserDetailsServiceImpl.loadUserByUsername(UserDetailsServiceImpl.java:27)
+	at com.personapi.personapi.Config.DataInitializer.run(DataInitializer.java:21)
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:788)
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82)
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60)
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:796)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:787)
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:772)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:571)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:772)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.personapi.personapi.PersonapiApplication.main(PersonapiApplication.java:10)
+2025-02-17 03:30:59 - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-17 03:30:59 - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-02-17 03:30:59 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-17 03:30:59 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-02-17 03:30:59 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-02-17 03:34:04 - c.p.personapi.PersonapiApplication - Starting PersonapiApplication using Java 23.0.2 with PID 10868 (C:\Users\Juan Diego\Documents\Java\personapi\build\classes\java\main started by Juan Diego in C:\Users\Juan Diego\Documents\Java\personapi)
+2025-02-17 03:34:04 - c.p.personapi.PersonapiApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-17 03:34:08 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-17 03:34:08 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 221 ms. Found 4 JPA repository interfaces.
+2025-02-17 03:34:12 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-02-17 03:34:12 - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-17 03:34:13 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-17 03:34:13 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-17 03:34:13 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-17 03:34:13 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 8400 ms
+2025-02-17 03:34:14 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-17 03:34:14 - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-17 03:34:14 - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-02-17 03:34:16 - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-17 03:34:16 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-02-17 03:34:17 - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@69a73867
+2025-02-17 03:34:17 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-02-17 03:34:17 - org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-17 03:34:17 - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-17 03:34:20 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-17 03:34:21 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-17 03:34:23 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-17 03:34:24 - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2025-02-17 03:34:28 - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-17 03:34:28 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-02-17 03:34:28 - c.p.personapi.PersonapiApplication - Started PersonapiApplication in 26.287 seconds (process running for 29.802)
+2025-02-17 03:34:29 - o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-17 03:34:30 - o.s.boot.SpringApplication - Application run failed
+org.springframework.security.core.userdetails.UsernameNotFoundException: Usuario no encontrado: admin
+	at com.personapi.personapi.Service.Impl.UserDetailsServiceImpl.lambda$loadUserByUsername$0(UserDetailsServiceImpl.java:27)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at com.personapi.personapi.Service.Impl.UserDetailsServiceImpl.loadUserByUsername(UserDetailsServiceImpl.java:27)
+	at com.personapi.personapi.Config.DataInitializer.run(DataInitializer.java:21)
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:788)
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82)
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60)
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:796)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:787)
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:772)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:571)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:772)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.personapi.personapi.PersonapiApplication.main(PersonapiApplication.java:10)
+2025-02-17 03:34:30 - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-17 03:34:30 - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-02-17 03:34:30 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-17 03:34:30 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-02-17 03:34:30 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-02-17 03:35:47 - c.p.personapi.PersonapiApplication - Starting PersonapiApplication using Java 23.0.2 with PID 14936 (C:\Users\Juan Diego\Documents\Java\personapi\build\classes\java\main started by Juan Diego in C:\Users\Juan Diego\Documents\Java\personapi)
+2025-02-17 03:35:47 - c.p.personapi.PersonapiApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-17 03:35:50 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-17 03:35:50 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 183 ms. Found 4 JPA repository interfaces.
+2025-02-17 03:35:52 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-02-17 03:35:52 - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-17 03:35:52 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-17 03:35:52 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-17 03:35:52 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-17 03:35:52 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4301 ms
+2025-02-17 03:35:52 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-17 03:35:53 - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-17 03:35:53 - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-02-17 03:35:54 - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-17 03:35:54 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-02-17 03:35:54 - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3e4afd10
+2025-02-17 03:35:54 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-02-17 03:35:54 - org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-17 03:35:55 - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-17 03:35:57 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-17 03:35:57 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-17 03:35:58 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-17 03:35:58 - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2025-02-17 03:36:00 - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-17 03:36:00 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-02-17 03:36:00 - c.p.personapi.PersonapiApplication - Started PersonapiApplication in 14.155 seconds (process running for 17.206)
+2025-02-17 03:38:50 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-17 03:38:50 - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-02-17 03:38:50 - o.s.web.servlet.DispatcherServlet - Completed initialization in 28 ms
+2025-02-17 03:42:58 - c.p.personapi.PersonapiApplication - Starting PersonapiApplication using Java 23.0.2 with PID 2172 (C:\Users\Juan Diego\Documents\Java\personapi\build\classes\java\main started by Juan Diego in C:\Users\Juan Diego\Documents\Java\personapi)
+2025-02-17 03:42:58 - c.p.personapi.PersonapiApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-17 03:43:01 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-17 03:43:02 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 340 ms. Found 4 JPA repository interfaces.
+2025-02-17 03:43:03 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-02-17 03:43:03 - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-17 03:43:03 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-17 03:43:03 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-17 03:43:04 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-17 03:43:04 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5441 ms
+2025-02-17 03:43:04 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-17 03:43:04 - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-17 03:43:04 - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-02-17 03:43:06 - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-17 03:43:06 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-02-17 03:43:07 - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@578b2dec
+2025-02-17 03:43:07 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-02-17 03:43:07 - org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-17 03:43:07 - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-17 03:43:10 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-17 03:43:10 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-17 03:43:12 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-17 03:43:12 - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2025-02-17 03:43:14 - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-17 03:43:14 - o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-02-17 03:43:14 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-17 03:43:14 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-02-17 03:43:15 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-02-17 03:43:15 - o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-17 03:43:15 - o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-02-17 03:44:33 - c.p.personapi.PersonapiApplication - Starting PersonapiApplication using Java 23.0.2 with PID 12904 (C:\Users\Juan Diego\Documents\Java\personapi\build\classes\java\main started by Juan Diego in C:\Users\Juan Diego\Documents\Java\personapi)
+2025-02-17 03:44:33 - c.p.personapi.PersonapiApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-17 03:44:36 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-17 03:44:36 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 178 ms. Found 4 JPA repository interfaces.
+2025-02-17 03:44:38 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-02-17 03:44:38 - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-17 03:44:38 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-17 03:44:38 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-17 03:44:38 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-17 03:44:38 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4631 ms
+2025-02-17 03:44:38 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-17 03:44:39 - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-17 03:44:39 - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-02-17 03:44:40 - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-17 03:44:40 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-02-17 03:44:41 - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@56c6d515
+2025-02-17 03:44:41 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-02-17 03:44:41 - org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-17 03:44:41 - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-17 03:44:43 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-17 03:44:43 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-17 03:44:45 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-17 03:44:45 - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2025-02-17 03:44:47 - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-17 03:44:47 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-02-17 03:44:47 - c.p.personapi.PersonapiApplication - Started PersonapiApplication in 15.176 seconds (process running for 19.125)
+2025-02-17 03:45:09 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-17 03:45:09 - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-02-17 03:45:09 - o.s.web.servlet.DispatcherServlet - Completed initialization in 18 ms

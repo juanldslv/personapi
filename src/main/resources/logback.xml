@@ -1,0 +1,37 @@
+<configuration>
+
+    <!-- Definir el patrón de logging -->
+    <property name="LOG_PATTERN" value="%d{yyyy-MM-dd HH:mm:ss} - %logger{36} - %msg%n"/>
+
+    <!-- Configuración de consola -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>${LOG_PATTERN}</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Configuración de archivo (logs/application.log) -->
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/application.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- Crear un archivo nuevo cada día -->
+            <fileNamePattern>logs/application.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>7</maxHistory> <!-- Guardar logs de los últimos 7 días -->
+        </rollingPolicy>
+        <encoder>
+            <pattern>${LOG_PATTERN}</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Niveles de logging específicos para paquetes -->
+    <logger name="com.personapi.personapi.Controller" level="DEBUG"/>
+    <logger name="com.personapi.personapi.Service" level="INFO"/>
+    <logger name="com.personapi.personapi.Repository" level="WARN"/>
+
+    <!-- Nivel de logging global -->
+    <root level="INFO">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="FILE"/>
+    </root>
+
+</configuration>
